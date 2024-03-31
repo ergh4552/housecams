@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'video')}">
+<head>
+    <meta charset="UTF-8">
+    <title>Video</title>
+</head>
+<body>
+<h2>Video</h2>
+<iframe th:src="${baseUrl}" width="2048" height="1080" frameborder="0" class="giphy-embed" allowFullScreen></iframe>
+</body>
+</html>
